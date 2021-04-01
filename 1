@@ -19,5 +19,9 @@ def get_csv_from_url(url:str) -> pd.DataFrame:
 def print_tabulate(df: pd.DataFrame):
     print(tabulate(df, headers=df.columns, tablefmt='orgtbl'))
 
-df = pd.read_csv("C:\\Users\\nohem\\OneDrive\\Escritorio\\superbowl-ads.csv")
+df = pd.read_csv("C:\\Users\\nohem\\OneDrive\\Escritorio\\mineria\\superbowl2.csv")
 print_tabulate(df)
+import pandas as pd
+import numpy as np
+import matplotlib as plt
+import seaborn as sns
